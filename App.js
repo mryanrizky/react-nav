@@ -1,7 +1,8 @@
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer } from "@react-navigation/native";
-import Home from "./home";
-import Setting from "./setting";
+import Home from "./pages/home";
+import Setting from "./pages/setting";
+
 const Drawer = createDrawerNavigator();
 export default function App() {
   return (
